@@ -1,0 +1,290 @@
+body{
+background-color: white;
+padding: 0px;
+margin: 0px;
+}
+.form1{
+	background-image: url("images/profile.jpg");
+	width: 50%;
+	height: 50%;
+	margin-left: 180px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
+
+}
+.contenu{
+	display: flex;
+	margin-top: 500px;
+	width: 90%;
+     margin: 0 auto ;
+     padding: 15px;
+     background-color: white;
+	justify-content: space-between;
+	height: 50%;
+
+}
+.div{
+	margin-top: 20px;
+}
+
+input{
+	width: 40%;
+	border: none;
+	border-bottom: 1px solid black;
+	flex-direction: row;
+	display: inline-block;
+}
+select{  
+   width: 270px;
+   border: none;
+   border-bottom: 1px solid black;
+   margin-left: 15px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+.formulaire{
+	width: 100%;
+	height: 500px
+}
+
+.container{
+	display: flex;
+	height: 450px;
+	margin-top: 500px;
+	width: 70%;
+     margin: 0 auto ;
+     padding: 15px;
+	justify-content: space-between;
+}
+.inpu-name{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 15px;
+}
+.inpu-container{	
+	display: flex;
+}
+
+.inpu-container input{
+	width: 250px;
+	margin-left: 15px;
+}
+button{
+	width: 80px;
+	background-color: gray;
+	border-radius: 5px;
+}
+
+
+p{
+	text-decoration: underline;
+}
+/* css du deuxieme formulaire*/
+.formulaire2{
+	background-color: blueviolet;
+	width: 90%;
+	height: 90%;
+	margin-top: 2%;
+}
+.forme2{
+	height: 500px;
+	background-color: violet;
+	width: 50%;
+	margin-left: 180px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
+}
+.imageb{
+	width: 90%;
+	height: 90%;
+	margin-top: 2%;
+}
+.formulaire2 h1{
+	color: red;
+}
+.price{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+}
+.price input{
+	margin-right: 30px;
+}
+.name{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+
+}
+.name input{
+	color: white;
+}
+.mail{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+
+}
+.people{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+
+}
+
+.people select{
+	width: 30px;
+	justify-content: space-between;
+	background-color: blueviolet;
+	border: none;
+	border-bottom: 1px solid white;
+	margin-left: 15px;
+	color: white;
+	margin-right: 40px;
+}
+.comment label{
+	margin-left: 30px;
+
+
+}
+.comment input{
+	height: 100px;
+}
+.phone{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+
+}
+.div2 input{
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: blueviolet;
+	margin-left: 30px;
+
+}
+.price input{
+	border: none;
+	color: white;
+}
+/* css du troisieme formulaire */
+.form3{
+	background-image: black;
+	width: 50%;
+	height: 50%;
+	margin-left: 180px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
+
+}
+.container3{
+	background-color: black;
+	display: flex;
+	height: 100%;
+	margin-top: 0px;
+	width: 100%;
+     margin: 0 auto ;
+     padding: 0px;
+	justify-content: space-between;
+
+}
+
+.image3{
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 500px;
+}
+.formulaire3 h1{
+	color: white;
+}
+.formulaire3{
+	background-color: black;
+	width: 100%;
+	height: 500px
+}
+.formulaire3 .div3 input{
+	border: none;
+	background-color: black ;
+	border-bottom: 1px solid white;
+	flex-direction: row;
+	display: inline-block;
+}
+.formulaire3 .div3 .inpu-container select{  
+   border: none;
+   background-color: black;
+   color: white;
+   border-bottom: 1px solid white;
+   margin-left: 15px;
+}
+ 
+.formulaire3 .but button{
+	display: flex;
+	display: inline-block;
+	background-color: white;
+	border-radius: 60%;
+	width: 25px;
+	text-align: center;
+	justify-content: space-between;
+}
+
+/* css du quatrieme formulaire */
+.form4{
+	background-image: white;
+	width: 50%;
+	height: 50%;
+	margin-left: 180px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
+
+}
+.formulaire4{
+	background-color: white;
+	width: 95%;
+	display: flex;
+	float: right;
+
+}
+.mode{
+	display: flex;
+}
+.flex1{
+	display: flex;
+	
+	width: 15px;
+	margin-right: 100px;
+}
+.formulaire4 input{
+	width: 100%;
+	border-radius: 10%;
+	border: 1px solid green ;
+}
+.image4{
+	width: 95%;
+	float: left;
+	margin-left: 5px;
+}
+.container.formulaire4{
+	float: right;
+	margin-right: 5px;
+}
+@media screen and (max-width: 1100px) {
+	body{
+		display: block;
+	}
+	img{
+		display: none;
+	}
+	.contenu{
+		display: block;
+		height: 100%;
+	}	
+}
